@@ -1,0 +1,59 @@
+.main{
+    width: 100%;
+    height: 540px;
+    background-color: rgb(28, 28, 104);
+}
+.image{
+    width: 400px;
+    height: 450px;
+    background-image: url("float.jpg")  ;
+    background-size: cover;
+    float: left;
+    margin-left: 90px;
+}
+.inputicon {
+    position: absolute;
+}
+
+.inputicon i {
+   
+    position: absolute;
+    left: 500px;
+    top:  55px;
+    right: 100px;
+    color:white;
+    font-size: 50px;
+}
+.inputicon2 i {
+   
+    position: absolute;
+    left: 560px;
+    top:  60px;
+    right: 100px;
+    color:white;
+    font-size: 50px;
+}
+.nicepage{
+   float: right;
+   margin: 250px 500px 200px 50px;
+   color: white;
+   font-size: 22px;
+}
+.morehappy{
+    float: right;
+    margin: 300px -500px 0px 50px;
+    color: white;
+    font-size: 26px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.create{
+    float: right;
+    margin: 370px -600px 0px 50px;
+    color: white;
+    font-size: 20px;
+}
+img{
+    float: right;
+    margin: 0px -700px 0px 50px;
+}
+
