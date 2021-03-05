@@ -1,0 +1,295 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ----------------Reset End---------------------- */
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    width: 100%px;
+    height: 150px;
+    background-color: #333333;
+    margin-top: 0;
+}
+nav ul li{
+  list-style: none;
+    float: left;
+    margin: 30px 10px 0px 10px;
+  position: relative;
+  left: 100px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #C0BA99;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    transform: 1s;
+
+}
+nav ul li a:hover{
+    color: orange;
+}
+.logo h3{
+    color: #C0BA99; 
+  position: absolute;
+  top: 100px;
+  left: 110px;
+    font-size: 34px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+h3 a{
+	text-decoration: none;
+	color: #C0BA99;
+}
+h3 a:hover{
+	color: orange;
+}
+.logo h5{
+	position: absolute;
+	left: 110px;
+	top: 140px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 14px;
+	color: #C0BA99;
+}
+button{
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    right: 90px;
+    top: 130px;
+
+}
+input{
+    color: white;
+    font-size: 16px;
+	position: absolute;
+	right: 200px;
+	top: 130px;
+	background-color: black;
+}
+.content{
+	width: 100%;
+	height: 600px;
+}
+.content .altiyuz{
+	
+		width: 630px;
+		height: 300px;
+		background-color:  #333333;
+		position: absolute;
+		bottom: 120px;
+		left: 180px; 
+	
+}
+.alti{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 300px;
+    font-size: 30px;
+    color: white;
+}
+.indonec{
+    position: absolute;
+    width: 300px;
+    height: 300px ;
+    background-color: #333333;
+    left: 800px;
+    bottom: 0px;
+}
+.indonec-p{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+    color: #C0BA99;
+}
+.nullam{
+    font-size: 14px;
+    margin-top: 30px;
+    color: #C0BA99;
+    text-align: justify;
+    margin-left: 20px;
+    letter-spacing: 0.2px;
+}
+.readmore{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.readmore a{
+    color: orange;
+	text-decoration: none;
+}
+
+.icon i {
+   
+    position: absolute;
+    
+    top:  240px;
+    right: 10px;
+    color:orange;
+    font-size: 12px;
+}
+.lorem{  
+	position: absolute;
+	bottom: 80px;
+	font-size: 24px;
+	left: 200px;
+	color: #C0BA99;
+   
+   
+   }
+   .loremtext{
+	   position: absolute;
+	   top: 580px;
+	   left: 180px;
+	   color: #868476;
+	   font-family: Georgia, 'Times New Roman', Times, serif;
+	   font-size: 14px;
+   }
+   .readmore2{
+	   position: absolute;
+	   top: 730px;
+	   left: 730px;
+	   color: orange;
+	
+   }
+   .readmore2 a{
+	   color: orange;
+	   text-decoration: none;
+   }
+   .icon2 i {
+	  
+	   position: absolute;
+	   
+	   top:  733px;
+	   right: 530px;
+	   color:orange;
+	   font-size: 12px;
+   }
+   .lorem2{  
+	   position: absolute;
+	   bottom: 80px;
+	   right: 180px;
+	   font-size: 24px;
+	   color: #868476;
+	  
+	  
+	  }
+	  .loremtext2{
+		  position: absolute;
+		  top: 580px;
+		  right:  50px;
+		  color: #868476;
+		  font-family: Georgia, 'Times New Roman', Times, serif;
+		  font-size: 14px;
+	  }
+	  .icon3 i {
+	  
+	   position: absolute;
+	   top:  683px;
+	   right: 80px;
+	   color:orange;
+	   font-size: 12px;
+   }
+   .readmore3 a{
+	   position: absolute;
+	   top: 680px;
+	   right: 100px;
+	   color: orange;
+	   text-decoration: none;
+   }
+ .loremtext a{
+	 color: orange;
+	 text-decoration: none;
+ }
+ .readmore2 a:hover{
+	 color: orange;
+
+ }
+ .readmore3 a:hover{
+	color: orange;
+	
+}
+
+
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+    position: absolute;
+    top: 750px;
+
+}
+.footer{
+    text-align: justify;
+    color: #868476;
+    line-height: 50px;
+    font-size: 16px;
+    margin-left: 150px;
+}
+.template{
+    color: #868476;
+    line-height: 50px;
+    font-size: 16px;
+    margin-left: 1000px;
+    margin-top: -50px;
+}
+ 
