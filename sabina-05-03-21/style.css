@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ----------------Reset End---------------------- */
+.main{
+    width: 736px;
+    height: 900px;
+    background-color: #B1D2D7;
+    margin: auto;
+ 
+    
+   
+}
+.container{
+    width: 730px;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.flexbox1{
+    width:500px ;
+    height: 200px;
+    background-color:#7D59B9 ;
+}
+.flexbox2{
+    width:200px ;
+    height: 200px;
+    background-color:#7D59B9 ;
+}
+.flexbox1 p{
+     font-size: 36px;
+color: white;
+text-align: center;
+line-height: 170px;
+text-transform: uppercase;
+}
+.flexbox2 , .flexbox4 p{
+    font-size: 20px;
+color: white;
+text-align: center;
+line-height: 170px;
+text-transform: uppercase;
+}
+.container2{
+    
+    width: 730px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+
+.flexbox4{
+    width:290px ;
+    height: 200px;
+    background-color:#7D59B9 ;
+}
+
+.main-text{
+    color: #9C427D;
+    font-size: 36px;
+    text-align: center;
+    line-height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/*  ------------------------------------------ */
+
+
+
+.bottom{
+    width: 350px;
+    height: 400px;
+    margin: auto;
+}
+.bottom-container{
+    width: 350px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.bottom-1{
+    width:350px ;
+    height: 100px;
+    background-color:#8C80C2 ;
+}
+
+
+.bottom-container2{
+    width: 350px;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+.bottom-2{
+    width:170px ;
+    height: 100px;
+    background-color:#8C80C2 ;
+}
+.bottom-container3{
+    width: 350px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+.bottom-3{
+    width:170px ;
+    height: 100px;
+    background-color:#8C80C2 ;
+}
+.bottom p{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+.bottom .bottom-container p{
+font-size: 24px;
+}
+
+
+
+
+
