@@ -1,0 +1,163 @@
+footer{
+   width: 480px;
+   height: 700px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+div{
+   margin-top: -500px;   
+   width: 420px;
+   height: 900px;
+   border: 10px solid rgb(204, 197, 197);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+.tel{
+    border: 0;
+    margin-top: -10px;
+}
+.adres{
+    border: 0;
+    margin-top: -10px;
+}
+i{
+    margin-top: 50px;
+    font-size: 36px;
+    color: gray;
+}
+p{
+    margin-top: 20px;
+    font-size: 22px;
+}
+form{
+    input{ 
+         margin:50px;
+         border-top: 0px;
+         border-right: 0px;
+         border-left: 0px;
+         width: 250px;
+         }
+    textarea{
+         border-top: 0px;
+         border-right: 0px;
+         border-left: 0px;
+         width:250px ;
+         }
+ 
+}
+button{
+    height: 45px;
+    width: 300px;
+    background-color:black;
+    border-radius: 16px;
+    transition-duration: 0.5s;
+    margin-top: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+
+}
+}
+.social{
+    font-size: 26px;
+    margin-left: 20px;
+    color: black;
+    transition: 0.5s;
+    display: inline-block;
+    float: left;
+}
+.social:hover{
+    color: black;
+    
+    background-color: #fff;
+}
+
+}
+@media only screen and (min-width:736px){
+    footer{
+        width: 100%;
+        height: 2000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        div{
+           margin-top: -500px;   
+           width: 1020px;
+           height: 850px;
+           border: 10px solid rgb(204, 197, 197);
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           margin-right: -300px;
+           
+              i{
+                  margin-top: -800px;
+                  font-size: 36px;
+                  color: gray;
+              }
+              p{
+                  margin-top: -800px;
+                  font-size: 22px;
+           }
+        form{
+            height: 500px;
+            margin-left: 600px;
+            input{ 
+            margin:50px;
+            border-top: 0px;
+            border-right: 0px;
+            border-left: 0px;
+            width: 250px;
+
+          
+           
+        } textarea{
+            border-top: 0px;
+            border-right: 0px;
+            border-left: 0px;
+            width:250px ;
+            }
+         
+        }.submit{
+            height: 45px;
+            width: 960px;
+            background-color:black;
+            border-radius: 16px;
+            transition-duration: 0.5s;
+            margin-top: 700px;
+            font-weight: bold;
+            color: white;
+            margin-right: 50px;
+        
+        }
+        .submit:hover{
+            cursor: pointer;
+            background-color: red;
+            color: white;
+            border: none;
+        
+        }
+       
+        .adres{
+            border: 0;
+            width: 300px;
+            height: 100px;
+            margin-top: 200px;
+            margin-left: -100px;
+        }
+        }
+       
+    }
+
+
+}

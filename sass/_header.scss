@@ -1,0 +1,131 @@
+header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 480px;
+        height: 100px;
+
+    div{
+        font-size: 44px;
+        margin-right: 100px;
+    }
+    button{
+        height: 35px;
+        width: 250px;
+        background-color: white;
+        border-radius: 16px;
+        transition-duration: 0.5s;
+        border: 0.5px solid black;
+    
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+
+    }
+
+    i:hover{
+        cursor: pointer;
+    }   
+
+    nav{
+         background-color: rgba($color: white, $alpha: 5.0);
+         width: 350px;
+         height: 800px;
+          
+    input{
+         display: none;
+     }
+     
+    input[type="checkbox"]:checked ~ ul{
+        transition: 0.5s;
+        transform: translateX(500px);
+        cursor: pointer;
+    }
+
+    label{
+         position: absolute;
+         i{
+             font-size: 34px;
+         }
+     }
+    
+ 
+        ul{
+            background-color: rgba($color: rgb(34, 33, 33), $alpha: 20.0);
+            position: absolute;
+            top: 40px;
+            width: 500px;
+            left: -500px;
+            height: 600px;
+           
+            .social{
+                font-size: 26px;
+                margin-left: 20px;
+                color: black;
+                // transition: 0.3s;
+                
+                float: left;
+
+            }
+            .social:hover{
+                color: black;
+                border: 5px;
+                border-radius: 50%;
+                background-color: #fff;
+                padding: .3rem;
+                transition: 0.5s;
+
+            }
+            p{
+                margin-left: 100px;
+                float: left;
+            }
+            li{
+                padding: 20px 0px 20px 0px;
+
+                a{
+                    text-align: justify;
+                    font-size: 32px;
+                    color: white;
+                    margin: 30px 0px 0px 70px;
+                    display: block;
+                    transition: 0.5s;
+           
+                    
+                }
+a:hover{
+    
+ 
+color: red;
+}
+                    
+                    
+                    
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width:736px){
+      header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100px;
+   
+
+        ul{
+            background-color: rgba($color: rgb(34, 33, 33), $alpha: 20.0);
+            position: absolute;
+            top: 30px;
+            width: 500px;
+            left: -500px;
+            height: 600px;
+            z-index: 1;
+      }
+    }
+
+    }
