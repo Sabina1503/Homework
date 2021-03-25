@@ -1,0 +1,123 @@
+.top-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 200px;
+  float: left;
+}
+
+.top-contact i {
+  color: blue;
+  font-size: 24px;
+}
+
+.top-contact i p {
+  color: black;
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  height: 600px;
+  background-color: #193858;
+  opacity: 0.9;
+}
+
+.container .container-text span {
+  color: orange;
+}
+
+.container .container-text h4 {
+  line-height: 600px;
+  font-size: 30px;
+  color: white;
+  display: inline;
+}
+
+.container2 {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+.container2 .text-dark {
+  border-right: 0px;
+  border-top: 0px;
+  border-left: 0px;
+  border-bottom: 5px;
+}
+
+.container2 h3 {
+  font-size: 36px;
+  color: #444242;
+  margin-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container2 .container2-text {
+  font-size: 20px;
+  color: #444141;
+  margin-top: 50px;
+}
+
+.card {
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 2px;
+}
+
+.card .card-text {
+  font-size: 20px;
+}
+
+.card i {
+  font-size: 56px;
+  color: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider {
+  width: 100%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 200px;
+}
+
+.slider .slider-twopart {
+  width: 100%;
+  height: 600px;
+}
+
+nav div ul li:hover {
+  background-color: gray;
+}
+/*# sourceMappingURL=mystyle.css.map */
