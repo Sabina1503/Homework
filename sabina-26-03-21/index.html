@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    
+       <div class="box">
+        <h1>Azerbaijan</h1>
+        <button onclick="myFunction();">Look capital</button>
+         <p id="text1"></p>
+    <img id="img1" src="image/white.png" alt=""></div>
+
+
+    <div class="box">
+        <h1>Turkey</h1>
+        <button onclick="myFunction2();">Look capital</button>
+         <p id="text2"></p>
+    <img id="img2" src="image/white.png" alt=""></div>
+
+
+    <div class="box">
+        <h1>Russia</h1>
+        <button onclick="myFunction3();">Look capital</button>
+         <p id="text3"></p>
+    <img id="img3" src="image/white.png" alt=""></div>
+    <script>
+    
+        function myFunction(){
+            var text="The capital of Azerbaijan is Baku";
+            var img =  document.getElementById("img1")
+            img.src="image/baku.jpg"
+           
+        document.getElementById("text1").innerHTML = text;
+    }
+    function myFunction2(){
+            var text="The capital of Turkey is Ankara";
+            var img =  document.getElementById("img2")
+            img.src="image/ankara.jpg"
+           
+        document.getElementById("text2").innerHTML = text;
+    }
+    function myFunction3(){
+            var text="The capital of Russia is Moskva";
+            var img =  document.getElementById("img3")
+            img.src="image/moskva.jpg"
+           
+        document.getElementById("text3").innerHTML = text;
+    }
+    </script> 
+</body>
+</html>
