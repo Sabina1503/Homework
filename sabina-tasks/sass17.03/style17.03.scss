@@ -95,15 +95,13 @@ nav{
     }
 }
 .card-img-overlay{
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 200px;
     background-color: rgba($color: #000000, $alpha: 0.6);
-    color: white;
+    color: black;
+    text-align: center;
     h5{
-        font-size: 46px;
+        font-size: 26px;
+        text-align: center;
   
     }
     p{

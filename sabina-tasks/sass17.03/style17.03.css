@@ -127,25 +127,15 @@ nav button:hover {
 }
 
 .card-img-overlay {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  width: 200px;
   background-color: rgba(0, 0, 0, 0.6);
-  color: white;
+  color: black;
+  text-align: center;
 }
 
 .card-img-overlay h5 {
-  font-size: 46px;
+  font-size: 26px;
+  text-align: center;
 }
 
 .card-img-overlay p {
