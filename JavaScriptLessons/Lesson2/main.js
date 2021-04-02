@@ -150,9 +150,6 @@ document.write("<br>"+ infoStriSt + infoStriNd+"<br>")
 // ?:           (sual üst-üstə qoşa nöqtə)((şərt) ? ifadə1 : ifadə2)
 // (5 >= 10) ? document.write("Hi") : document.write("Bye");
 // şərt            ? true                 : false
-// var age  = 17;
-// var status = (age >= 18) ? 'adult' : 'minor';
-// document.write(status);
 
 // void         (dəyişkənin dəyərini undefined etmək üçündür)
 // delete       (ojectin dəyərini silmək üçündür)

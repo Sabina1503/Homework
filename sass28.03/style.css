@@ -76,7 +76,11 @@ body .navbar-main .second-div button:hover {
   transition: .5s;
 }
 
-body .card-img-overlay {
+body .card {
+  background-attachment: fixed;
+}
+
+body .card .card-img-overlay {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -90,17 +94,18 @@ body .card-img-overlay {
   font-family: 'Open Sans', sans-serif;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
+  background-attachment: fixed;
 }
 
-body .card-img-overlay h5 {
+body .card .card-img-overlay h5 {
   font-size: 50px;
 }
 
-body .card-img-overlay p {
+body .card .card-img-overlay p {
   font-size: 20px;
 }
 
-body .card-img-overlay button {
+body .card .card-img-overlay button {
   width: 120px;
   height: 40px;
   border: none;
@@ -110,7 +115,7 @@ body .card-img-overlay button {
   margin-top: 10px;
 }
 
-body .card-img-overlay button:hover {
+body .card .card-img-overlay button:hover {
   color: white;
   background-color: black;
   -webkit-transition: .5s;
