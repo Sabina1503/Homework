@@ -608,16 +608,20 @@ color: white;
         
         .hero{
        .container{
-        nav{
+        nav{  
+            .social{
+                    display: none;
+                }
             .search{
                 display: inline-block;
                  .navbar-toggler{
-             
+           
                 .navbar-toggler-icon{
                    
                      font-size: 16px;
-                     color: white;
+                     color: white; 
                 }
+               
                
             } span{
                     color: gray;
