@@ -30,18 +30,15 @@
 
 
 // ----------------------------------------------------------------------------------------------------
-var     infoVar        = "infoVar";
+// var     infoVar        = "Variable";
 // const   infoConst      = "Constant";
 // let     infoLet        = "Let";
 
-var     infoVar        = "Variable";
-// const   infoConst2      = "Constant1";
-// let     infoLet1        = "Let1";
-let a = 3;
-a = 4;
-const name2 = 'Mukul';
-name2 = 'Mayank'; 
-document.write(name2);
+// var     infoVar        = "Variable1";
+// const   infoConst      = "Constant1";
+// let     infoLet        = "Let1";
+
+// document.write(infoLet);
 // ----------------------------------------------------------------------------------------------------
 
 // ----------------------------------------------------------------------------------------------------
@@ -49,17 +46,17 @@ document.write(name2);
 // Global
 // Local Global  
 
-//  var     infoVar        = "Variable";
-//   let     infoLet        = "Let"; 
-//   const   infoConst      = "Constant";
-// if(true){
-   
-//   document.write(infoConst);
-   
 
 
-// }
 
+if(true){
+    var     infoVar        = "Variable";
+    let     infoLet        = "Let";
+    const   infoConst      = "Constant";
+
+
+}
+// document.write(infoVar);
 
 
 //global
@@ -101,10 +98,10 @@ document.write(name2);
 // else if -> Əgər Deyilse
 
 
-// var infoNumbFt = 6;
+// var infoNumbFt = 5;
 // var infoNumbNd = "6";
 
-// if (infoNumbFt == infoNumbNd) {
+// if (infoNumbFt === infoNumbNd) {
 //                     if (infoNumbFt === infoNumbNd) {
 //     document.write("Equal");
                         
