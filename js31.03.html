@@ -10,23 +10,20 @@
   
 
 <script>
- 
-   var time = "Morning";
-
-  
-if (time === "Morning") {
-     document.write("Time is: 08:00 PM");
- } else if(time === "Afternoon") {
-
-    document.write("Time is: 14:00 PM");
+ for(var i=0; i<=10; i++){
+    if(i==0){
+        document.write("The number is zero" + "<br>");
+    }
+    
+  else if(i%2==0){ 
+    document.write(i + " " + "is even" + "<br>");
  }
-    else if(time === "Evening"){
-        document.write("Time is: 21:00 PM");
-    }
-    else{
-        document.write("Empty");
-    }
-
+ 
+ else{
+     document.write(i + " " + "is odd" + "<br>");
+ }
+ }
+ 
 </script>
 </body>
 </html>

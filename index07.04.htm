@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/36f29ba7e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img width="350px" height="100px" src="image/starbucks-logo1.jpg" alt=""></a>
+            <div class="toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+          
+           
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="text-box">
+                <h2>It's not just Coffee It's <span>Starbucks</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolore sequi soluta recusandae neque quasi autem culpa suscipit. Dicta libero consequatur voluptates cum necessitatibus quidem voluptatum quo quae magnam laboriosam?</p>
+                <button>Learn more..</button>
+            </div> </div>
+            <div class="img-box">
+                <img class="starbuck" src="image/img1.png" alt="">
+            </div>
+       
+        <ul class="thumb">
+            <li><img src="image/thumb1.png" onclick="imgSlider('image/img1.png'); changeCirclecolor('rgb(2, 63, 2)')" alt=""></li>
+            <li><img src="image/thumb2.png"onclick="imgSlider('image/img2.png') ; changeCirclecolor('#eb7495')" alt=""></li>
+            <li><img src="image/thumb3.png"onclick="imgSlider('image/img3.png') ; changeCirclecolor('#d752b1')" alt=""></li>
+        </ul>
+        <div class="social">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+
+        </div>
+    </section>
+    <script type="text/javascript">
+    function imgSlider(anything){
+        document.querySelector('.starbuck').src = anything;
+    }
+     function changeCirclecolor(color){
+         const circle = document.querySelector('.circle')
+         circle.style.background =color;
+     }
+     function toggleMenu() {
+
+    const menuToggle = document.querySelector('.toggle');
+    const navbar= document.querySelector('.navbar');
+     menuToggle.classList.toggle('active')
+     navbar.classList.toggle('active')
+     }
+    </script>
+</body>
+</html>
