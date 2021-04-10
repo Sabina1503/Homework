@@ -144,7 +144,7 @@ section .social i:hover{
 
 @media only screen and (max-width:736px){
     *{
-        overflow-x: hidden;
+        overflow: hidden;
     }
     header img{
    margin-left: -70px;
