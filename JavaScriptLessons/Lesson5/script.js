@@ -10,8 +10,8 @@
 // }
 
 
-// var say=60;
-// while(say >= 60 && say < 110){
+
+// while(say <= 60 && say < 110){
 
 // if(say < 50){
 //         document.write(say  + "<br>"); //false
@@ -57,12 +57,11 @@
 
 
 // 1.3.for in
-var misal = ["JS" , "PHP", "C"];
-var netice;
-for(netice in misal){
-  document.write(misal[netice]);
-}
-
+// var misal = ["JS" , "PHP", "C"];
+// var netice;
+// for(netice in misal){
+//   document.write(misal[netice]);
+// }
 // var misal = ["JS", " PHP", " C"];
 
 //  var netice;
