@@ -54,15 +54,17 @@
 //                 metn.lenght;
 
 //   1.2.eval() -> mətn kimi yazılan yazıları js koduna çevirmək üçün istifadə olunur
-//                 var qiymet1 = 10;
-//                 var qiymet2 = 20;
-//                 var netice = eval("qiymet1 + qiymet2");
-//                 var netice1 = eval("10*40");
-//                 function yoxlama(){
-//                   document.write("Salam");
-//                 }
-//                 var setr = eval("yoxlama()");
-//                 document.write(setr);
+                // var qiymet1 = 10;
+                // var qiymet2 = 20;
+                // var netice = eval("qiymet1 + qiymet2");
+                // document.write(netice);
+                // var netice1 = eval("10*40");
+                // document.write(netice1)
+                // function yoxlama(){
+                //   document.write("Salam");
+                // }
+                // var setr = eval("yoxlama()");
+                // document.write(setr);
 
 //   1.3.search()  -> Dəyişkən içərisində parametrik olaraq dəyəri axtarır və ilk uyğun gələn dəyişkənin içindəki indis/index dəyəri göstərər.
 //             var metn = "JavaScript";
@@ -147,18 +149,18 @@
 //   1.18.split() -> dəyişkənin içindəki dəyəri array data tipinə çevirir və parametrik olaraq müdaxilələr edə bilir
 //   birinci parametrdə qeyd oluanan hissə arrayın vergül qoyaraq ayırması tələb olunan hissədir.
 //   qeyd: böyük və kiçik hərfə həssasdır.
-//         var metn = "JavaScript dərsləri";
-//         document.write(metn);
-//         document.write(metn[2]);
+        // var metn = "JavaScript dərsləri";
+        // document.write(metn);
+        // document.write(metn[2]);
         
-//         var netice = metn.split("a",3); //2ci parametr limit parametridir
-//         document.write(netice);
+        // var netice = metn.split("a",3); //2ci parametr limit parametridir
+        // document.write(netice);
 
-//         var netice = metn.split(" ",3); //2ci parametr limit parametridir
-//         document.write(netice);
+        // var netice = metn.split(" ",3); //2ci parametr limit parametridir
+        // document.write(netice);
 
-//         var netice = metn.split(" ");
-//         document.write(netice[2]);
+        // var netice = metn.split(" ");
+        // document.write(netice[2]);
         
 //   1.19.localCompare -> iki dəyişkənin içindəki dəyərləri parametrik olaraq unikod`a əsasən yəni browserə əsasən qarşılaşdırır.
 //                       -1 :  birinci dəyişkənin dəyəri ikinci dəyişkənin dəyərindəndən ƏVVƏL gəlirsə
@@ -169,8 +171,8 @@
 //                       var netice = soz1.localCompare(soz2);
 //                       document.write(netice); 
 //   1.20.charAt()        ->   dəyişkənin dəyərinin index nömrəsini parametr hissəsinə daxil etdikdə həmin index nömrəsində olan dəyəri göstərir.
-//                         var metn = "JavaScript";
-//                         document.write(metn.charAt(0));
+                        // var metn = "JavaScript";
+                        // document.write(metn.charAt(0));
 //        charCodeAt()    -> dəyişkənin dəyərinin index nömrəsini parametr hissəsinə daxil etdikdə həmin dəyərin unicode`unu göstərir.
 //                         var metn = "JavaScript";
 //                         document.write(metn.charCodeAt(0));

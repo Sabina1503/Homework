@@ -5,10 +5,12 @@
 
 //ToDo App
 // function add1Item(x=5,y=10) {
-//     // var x = 5;
-//     // var y = 10;
+//     // let x = 5;
+//     // let y = 10;
 //     document.write(x+y);
 // }
+
+
 
 // add1Item(20,10);
 
@@ -30,9 +32,6 @@
 
 // timeAll(myTime);
 
-
-
-
 // function nameFunc(name) {
 //     document.write(name);
 // }
@@ -45,18 +44,16 @@
 
 // myFunc("first");
 
+(function myFunc(item){
 
-
-// (function myFunc(item){
-
-//     for (item ; item <= 10; item++) {
-//         document.write(item + "<br>");
+    for (item ; item <= 10; item++) {
+        document.write(item + "<br>");
         
-//     }
-//     var textLengt = "working my function";
-//     console.log(textLengt.length);
+    }
+    var textLengt = "working my function";
+    console.log(textLengt.length);
     
-// })(5)
+})(5)
 
 
 
