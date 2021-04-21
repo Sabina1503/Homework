@@ -56,13 +56,12 @@
 
 
 
-// 1.3.
-// for in
-var misal = ["JS" , "PHP", "C"];
-var netice;
-for(netice in misal){
-  document.write(misal[netice]);
-}
+// 1.3.for in
+// var misal = ["JS" , "PHP", "C"];
+// var netice;
+// for(netice in misal){
+//   document.write(misal[netice]);
+// }
 // var misal = ["JS", " PHP", " C"];
 
 //  var netice;

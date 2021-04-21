@@ -1,10 +1,20 @@
+body{
+    overflow-x: hidden;
+}
 .header{
 width: 100%;
 height: 100vh;
-background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../image/porto-bg.webp');
+background:  url('../image/porto-bg.webp');
 background-size: cover;
 background-position: center center;
 background-attachment: fixed;
+z-index: 10000;
+.buy-main{
+    z-index: 10000;
+}
+.buy:hover{
+margin-left: 10px;
+}
 img{
     cursor: pointer;
 }
@@ -35,9 +45,358 @@ button{
     background-color: #0182D7;
     border: none;
     color: white;
+    z-index: 10000;
 }
 button:hover{
     background-color: #2c91d4;
 
 }
+}
+// ----------------------------------------------------
+.section1{
+    width: 100%;
+    height: 700px;
+    background-color: #1C2023;
+    margin-top: 200px;
+    .card{
+        border-radius: 20px;
+        background-color: #4e5257;
+    }
+    .content{
+        color: white;
+    }
+    .p-content{
+        color: white;
+    }
+}
+.section2{
+    margin-top: 50px;
+    clip-path: polygon(0 8%, 100% 0, 100% 94%, 0% 100%);
+    width: 100%;
+    height: 1400px;
+    background-color: #0169FE;
+    display: flex;
+ 
+    .three-div{
+        transform: rotate(-10deg);
+    .three-div1{
+        width: 200px;
+        height: 40px;
+        background-color: #055DDC;
+        margin-top: 20px;
+        text-align: center;
+        line-height: 40px;
+        font-weight: 1000;
+        font-weight: 1000;
+        color: white;
+        margin-left: 50px;
+        border-radius: 5px;
+    }
+  .three-div2{
+      width: 450px;
+      height: 60px;
+      background-color: #0E3B7C;
+      margin-top: 20px;
+      text-align: center;
+      line-height: 60px;
+      font-weight: 1000;
+      color: white;
+      border-radius: 5px;
+  }
+  .three-div3{
+    width: 150px;
+    height: 40px;
+    background-color: #22252A;
+    margin-top: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 1000;
+    color: white;
+    border-radius: 5px;
+    margin-left: 150px;
+}
+}
+.content-2{
+    color: white;
+width: 400px;
+}
+.cards-main{
+    margin-top: 50px;  
+}
+button{
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #151719;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+button:hover{
+    background-color:#202427;
+}
+}
+// -------------------------------------
+.section3{
+    width: 100%;
+    height: 1300px;
+    clip-path: polygon(0 0, 100% 5%, 100% 95%, 50% 100%, 50% 100%, 0 95%);
+    background-color: #1C2023;
+    margin-top: 100px;
+    .sect3-content{
+        text-align: center;
+        h1{
+            font-family: 'Orelega One', cursive;
+            color: white;
+        }
+        p{
+            color: gray;
+        }
+    }
+}
+// ------------------------------------
+.section4{
+    width: 100%;
+    height: 700px;
+    margin-top: 200px;
+    clip-path: polygon(50% 8%, 100% 1%, 100% 89%, 50% 100%, 0 89%, 0 0);
+    background-color: #1C2023;
+    .sect4-content {
+        text-align: center;
+        color: white;
+    }
+    .carousel {
+        margin-top: 50px;
+    }
+    .btn{
+        width: 170px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #151719;
+        border: none;
+        color: white;
+        font-weight: 500;
+    }
+    .btn:hover{
+        background-color:#202427;
+    }
+}
+// --------------------------------------------
+.section5{
+    width: 100%;
+    height: 700px;
+    margin-top: 200px;
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    background-color: #0169FE;
+    .sect5-content{
+        padding-top: 100px;
+       h1{
+           color: white;
+       }
+       h2{
+           color: white;
+       }
+    }
+    .sect5-content2{
+        margin-top: 50px;
+    }
+    .row{
+        margin-top: 50px;
+        p{
+            font-size: 20px;
+            color: white;
+        }
+    }
+    .btn{
+        width: 200px;
+        height: 60px;
+        border-radius: 30px;
+        background-color: #151719;
+        border: none;
+        color: white;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    .btn:hover{
+        background-color:#202427;
+    }
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #1C2023;
+    .row{
+        display: flex;
+        justify-content: center;
+        button{
+            width: 130px;
+            height: 50px;
+            border-radius: 30px;
+            background-color: #151719;
+            border: none;
+            color: white;
+            font-weight: 500;
+            margin-top: 50px;
+            font-size: 12px;
+        }
+        button:hover{
+            background-color:#313538;
+        }
+    }
+    .social{
+        margin-left: 10px;
+    }
+    .social:hover{
+        background-color: rgb(41, 41, 155) !important;
+    }
+    h1{
+        color: white;
+    }
+    p{
+        color: gray;
+        span{
+            color: white;
+        }
+    }
+}
+.footer-end{
+    width: 100%;
+    height: 100px;
+    background-color: #212529;
+    color: gray;
+    font-size: 12px;
+}
+
+
+
+@media only screen and (max-width:736px){
+    .header{
+        height: auto;
+        .btn{
+            display: none;
+        }
+        .blue-content{
+            margin-top: 100px !important;
+        }
+        .header-content{
+            display: flex;
+            flex-direction: column !important;
+            .content{
+                margin-left: 0 !important;
+            }
+            video{
+                margin-top: 0 !important;
+                width: 400px !important;
+                margin-left: 0 !important;
+            }
+            .buy{
+                display: none !important;
+            }
+        }
+    }
+    .section1{
+        height: auto;
+        .content{
+            width: 300px !important;
+        }
+        .p-content{
+            width: 400px !important;
+        }
+        .card-main{
+            width: 100% !important;
+            display: flex;
+            flex-direction: column !important;
+         
+            align-items: center !important;
+            .card{
+                margin-top: 20px;
+            }
+        }
+    }
+    .section2{
+        height: auto;
+       
+        clip-path: polygon(0 5%, 100% 0, 100% 96%, 0% 100%);
+        .cards-main{
+            display: flex;
+            flex-direction: column !important;
+           align-items: center;
+        }
+    }
+    .section3{
+        display: flex;
+        align-items: center !important;
+        flex-direction: column;
+        justify-content: center;
+        height: 700px;
+        .img-div{
+            display: none;
+        }
+        img{
+            display: none;
+        }
+        .sect3-content{
+            width: 100% !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center !important;
+            margin-top: 50px;
+        }
+    }
+    .section4{
+        height: 800px;
+        .sect4-content{
+            margin-top: 100px;
+        }
+        .carousel{
+            width: 100% !important;
+            .slider-content{
+                width: 400px !important;
+            }
+        }
+      
+    }
+    .footer{
+        height: auto;
+        .row{
+            width: 100% !important;
+            display: flex;
+            flex-direction: column  !important;
+            justify-content: center !important;
+            align-items: center;
+            button{
+                width: 130px;
+                height: 50px;
+                border-radius: 30px;
+                background-color: #151719;
+                border: none;
+                color: white;
+                font-weight: 500;
+                font-size: 12px;
+                margin-top: 10px;
+            }
+            button:hover{
+                background-color:#313538;
+            
+            }
+            #btn1{
+                width: 150px;
+            }
+            #btn2{
+                width: 140px;
+            }
+            #btn3{
+                width: 130px;
+            }
+            #btn4{
+                width: 120px;
+            }
+            #btn5{
+                width: 110px;
+            }
+            #btn6{
+                width: 100px;
+            }
+        }
+    }
 }
