@@ -32,22 +32,21 @@
 
         document.getElementsByTagName('p')[0].innerHTML = "hi fontend";
 
-        document.querySelector('.list').innerHTML = "List";
-        document.querySelectorAll('.list')[1].innerHTML = "List";
+        // document.querySelector('.list').innerHTML = "List";
+        document.querySelectorAll('.list')[0].innerHTML = "List";
 
 
 
 
-    </script>  -->
+    </script> -->
     <!-- <script src="main.js"></script> -->
 
 
 
 <!-- ------------------------------------------------------------------------------------------------------ -->
 
-
+<!-- 
 <a href="">Hi Js</a>
-
 <div id="box"></div>
 <button onclick="infoColor()">Color</button>
 
@@ -61,13 +60,13 @@
     document.querySelector('#box').style.background = "green";
     }
 </script>
-
+ -->
 
  
  <!-- --------------------------------------------------------------------------------------------- -->
 
-
-<!-- <div class="box"></div>
+<!-- 
+<div class="box"></div>
 
 
 <button onclick="infoColor()">Color</button>
@@ -80,9 +79,7 @@
 
  <!-- --------------------------------------------------------------------------------------------- -->
 
-
-<!-- 
-<h1 onclick="this.innerHTML = 'hi Js'">Javascript</h1>
+<!-- <h1 onclick="this.innerHTML = 'hi Js'">Javascript</h1>
 
 
 <input id="read" type="text" onchange="infoText()">
@@ -110,8 +107,7 @@ document.querySelector("p").innerHTML = "Hi JavaScript";
             }
  </script> -->
 
-  <!-- --------------------------------------------------------------------------------------------- -->
-
+ <!-- --------------------------------------------------------------------------------------------- -->
 
  <!-- <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
 style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
@@ -123,13 +119,77 @@ function mOver(obj) {
 }
 
 function mOut(obj) {
-  obj.innerHTML = "Mouse Over Me"
+  obj.innerHTML = "Mdjkskjnf"
 }
 </script> -->
 
 <!-- https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_animate_3? -->
-<!-- https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_animate_3? -->
-<!-- https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_animate_3? -->
-<!-- <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_animate_3">bdj</a> -->
+
+<!-- --------------------------------------------------------------------------------------------- -->
+
+<!-- <p></p>
+<script>
+
+var infoTime = () => {document.getElementsByTagName('p')[0].innerHTML = new Date();}
+setInterval(infoTime, 0.1)
+</script> -->
+
+<!-- --------------------------------------------------------------------------------------------- -->
+
+
+<!-- <button onmousedown="infoDown(this)" onmouseup="infoUp(this)">Click Me</button>
+
+<script>
+    const infoDown = (buttonHere) =>{
+        buttonHere.innerHTML = "Pressing";
+    }
+    const infoUp = (buttonHere) => {
+        buttonHere.innerHTML = "Press Out";
+
+    }
+</script> -->
+
+<!-- --------------------------------------------------------------------------------------------- -->
+
+
+<!-- <p></p>
+<button>Press</button>
+
+<script>
+     function infoClick(){
+        document.querySelector('button').innerHTML = "Hi";
+    }
+    document.querySelector('button').addEventListener('mousedown', infoClick);
+
+   
+</script> -->
+
+<!-- --------------------------------------------------------------------------------------------- -->
+
+<!-- <h1>hi Javascript</h1>
+<p> mhkn</p>
+<p>njsnf</p>
+
+<script>
+    document.querySelector('p').innerHTML = document.querySelector('h1').childNodes[0].nodeValue;
+</script> -->
+
+<!-- --------------------------------------------------------------------------------------------- -->
+
+<!-- <div>
+<h1>FS JS</h1>
+</div>
+
+<script>
+ var infoAdd  = document.createElement('h1');
+ var infoText = document.createTextNode('HI JS');
+infoAdd.appendChild(infoText);
+
+var infoElement =  document.querySelector('div');
+infoElement.appendChild(infoAdd);
+
+</script> -->
+<!-- --------------------------------------------------------------------------------------------- -->
+
 </body>
 </html>
