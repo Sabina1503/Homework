@@ -11,7 +11,7 @@
   <div class="container">
     <h1>TO do App</h1>
     <div class="input-cont">
-    <input type="text" id="add" placeholder="Type something to do">
+    <input type="text" id="add" onchange="myFunc()" placeholder="Type something to do">
     <button id="btn">Add</button>
 </div>
 <div class="list">
@@ -46,6 +46,9 @@ if(e.target.tagName=='LI'){
 }
 
     })
+    const myFunc =()=>{
+    document.getElementById('add').value=document.getElementById('add').value.toUpperCase();
+    }
 </script>
 </body>
 </html>
