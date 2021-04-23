@@ -35,7 +35,7 @@ if(text=== ''){
 else{
     var li =document.createElement('li');
     li.innerHTML=text;
-    list.insertBefore(li,list.childNodes[0]);
+    list.appendChild(li,list.childNodes[0]);
     input.value = '';
 }
 
