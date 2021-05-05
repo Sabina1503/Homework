@@ -44,16 +44,16 @@
 
 // myFunc("first");
 
-(function myFunc(item){
+// (function myFunc(item){
 
-    for (item ; item <= 10; item++) {
-        document.write(item + "<br>");
+//     for (item ; item <= 10; item++) {
+//         document.write(item + "<br>");
         
-    }
-    var textLengt = "working my function";
-    console.log(textLengt.length);
+//     }
+//     var textLengt = "working my function";
+//     console.log(textLengt.length);
     
-})(5)
+// })(5)
 
 
 

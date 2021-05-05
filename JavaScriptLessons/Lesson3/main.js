@@ -49,13 +49,13 @@
 
 
 
-if(true){
-    var     infoVar        = "Variable";
-    let     infoLet        = "Let";
-    const   infoConst      = "Constant";
+// if(true){
+//     var     infoVar        = "Variable";
+//     let     infoLet        = "Let";
+//     const   infoConst      = "Constant";
 
 
-}
+// }
 // document.write(infoVar);
 
 
