@@ -623,7 +623,41 @@ outline: none;
   transition: .7s;
 }
 
+.mybutton{
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
 
+}
+
+.container-main{
+  width: 80%;
+  margin: 10%;
+
+}
+.i-box{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(45deg);
+}
+.i-box .fas{
+  font-size: 46px;
+  transform: rotate(-45deg);
+  color: yellow;
+}
+.col-my p{
+  font-size: 18px;
+}
+.col-my .counter{
+  font-size: 60px;
+}
 
 
 

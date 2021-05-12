@@ -1,0 +1,726 @@
+header{
+    width: 100%;
+}
+header .ss{
+ 
+    height: 100px;
+    background-color: #2D3748;
+}
+header .ss input{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #718096;
+    border-radius: 5px;
+}
+header .ss .dark:hover i{
+color: white !important;
+cursor: pointer;
+}
+.home-slider .owl-dots .owl-dot span{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin-left: 20px;
+
+}
+::-webkit-input-placeholder{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header .ss .menu p{
+    margin-left: 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+header .ss .menu p:hover{
+    color: rgb(55, 55, 172);
+    cursor: pointer;
+    transition: .5s;
+}
+header .icon-box{
+    display: none;
+}
+.label{
+    background-color: orange;
+    width: 53px;
+    height: 25px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+  }
+  .checkbox{
+      opacity: 1;
+      position: absolute;
+  }
+  .checkbox:checked + .label{
+      background-color: blue;
+  }
+  .checkbox:checked + .label .circle{
+      transform: translateX(26px);
+  }
+  .btn-sun{
+      color: white;
+  }
+  .btn-moon{
+      color: white;
+  }
+  .label .circle{
+   width: 22px;
+   height: 22px;
+   background-color: #fff;
+   position: absolute;
+   border-radius: 50%;
+   left: 2px;
+   transition: transform  .2s linear;
+  }
+section{
+    height: 100vh;
+    background-color: #1A202C;
+}
+section .first-card{
+    background-color: #2D3748;
+    width: 1200px;
+    height: 400px;
+    border-radius: 20px; 
+    position: absolute;
+    top: 220px;
+    left:80px ;
+  
+}
+section .first-card .content{
+    width: 600px;
+    height: 400px ;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: white;
+}
+section .first-card img{
+    margin-top: -330px;
+}
+section .first-card .content #first-p{
+    color: white;
+    font-weight: 1000;
+    font-size: 46px;
+}
+section .first-card .content .first-btn{
+    width: 150px;
+    height: 50px;
+    background-color: #2761E8;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+section .first-card .content .second-btn{
+    width: 150px;
+    height: 50px;
+    background-color: #2761E8;
+    color: black;
+    border-radius: 50px;
+    border: 3px solid #A0AEC0;
+    background-color: #EDF2F7;
+}
+section .first-card .content .first-btn:hover{
+    background-color: gray;
+    transition: .3s;
+}section .first-card .content .second-btn:hover{
+    transition: .7s;
+    border: 3px solid #2761E8;
+}
+section .first-card  .small-div{
+    width: 400px;
+    height: 90px;
+    background-color: #EDF2F7;
+    position: relative;
+    right: 0;
+    bottom: 200px;
+    left: 800px;
+    border-radius: 10px;
+}
+section .first-card  .small-div .numb-p{
+    color: #5A67D8;
+    font-size: 32px;
+    font-weight: 700;
+}
+ header .container .icon-box{
+    display: none;
+}
+header  .respons-menu div{
+    display: none;
+}
+header .close{
+    display: none;
+}
+.section2{
+    width: 1200px;
+    height: 500px;
+    /* background-color: #1A202C; */
+    position: absolute;
+    left: 80px;
+    background-color: #1A202C;
+}
+.section2 .small-line{
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-left: 5px solid lightgray;
+    border-radius: 5px;
+    color: white;
+}
+.section2 .card{
+    margin-top: 50px;
+}
+.section2 .card1{
+    background-color: blueviolet;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('imgs/Screenshot\ \(3\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 450px;
+    border: none;
+    border-radius: 20px;
+    position: absolute; 
+}
+.section2 .card2{
+    background-color: blueviolet;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('imgs/Screenshot\ \(5\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 450px;
+    border: none;
+    border-radius: 20px;   
+}
+.section2 .card3{
+    background-color: blueviolet;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('imgs/Screenshot\ \(6\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 500px;
+    border: none;
+    border-radius: 20px;    
+}
+.section2 .card8{
+    background-color: blueviolet;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('imgs/Screenshot\ \(3\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 450px;
+    border: none;
+    border-radius: 20px;
+    position: absolute; 
+}
+.section2 .card7{
+    background-color: blueviolet;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('imgs/Screenshot\ \(3\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 450px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;  
+}
+.section2 .card6{
+    background-color: blueviolet;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('imgs/Screenshot\ \(6\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 500px;
+    border: none;
+    border-radius: 20px;   
+}
+.section2 .card5{
+    background-color: blueviolet;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('imgs/Screenshot\ \(3\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 450px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;  
+}
+.section2 .card4{
+    background-color: blueviolet;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('imgs/Screenshot\ \(5\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 450px;
+    border: none;
+    border-radius: 20px;  
+}
+.section2 .card .btn1{
+    width: 5rem;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.section2 .btn2{
+    width: 5rem;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2761E8;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.section2 .btn3{
+    width: 5rem;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(87, 87, 245);
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.section2 .card .btn1:hover{
+    background-color: gray;
+    transition: .5s;
+}
+.section2 .btn2:hover{
+    background-color: gray;
+    transition: .5s;
+}
+.section2 .btn3:hover{
+    background-color: gray;
+    transition: .5s;
+}
+.section2 .card p{
+    color: gray;
+}
+.section2 .card h5{
+    color: white;
+}
+/* ------------------------------- */
+.section3{
+    height: 80vh;
+    background-color:#F8F8F8 ;
+    display: flex;
+    justify-content: center;
+}
+.section3 .second-card{
+    background-color: #2D3748;
+    width: 1200px;
+    height: 400px;
+    border-radius: 20px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+.section3 .second-card .content{
+    width: 600px;
+}
+.section3 .second-card  img{
+    margin-top: -50px;
+}
+/* ------------------------------- */
+.section4{
+    height: 100vh;
+    background-color:#1A202C;
+
+}
+.section4 .small-line{
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-left: 5px solid lightgray;
+    border-radius: 5px;
+    color: white;
+}
+.section4 .sect4-start{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.section4 .sect4-start button{
+    width: 90px;
+    height: 30px;
+    background-color: #718096;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.section4 .sect4-start button:hover{
+    background-color: white;
+    color: rgb(119, 117, 117);
+    transition: .3s;
+}
+.section4 .card{
+    border: none;
+    border-radius: 20px;
+    height: 220px;
+    background-color: #2D3748;
+    color: white;
+}
+.section4 .btn2{
+    width: 4rem;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2761E8;
+    color: white;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.section4 .btn2:hover{
+    background-color: gray;
+    transition: .5s;
+}
+.section4 small:hover{
+    color: #2761E8 !important;
+    cursor: pointer;
+    transition: .3s;
+}
+.section4 .card img:hover{
+    cursor: pointer;
+   
+}
+/* ---------------------------------------- */
+.section4 .btn3{
+    width: 4rem;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.section4 .btn4{
+    width: 7rem;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ECC94B;
+    color: black;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.section4 .card4-1{
+    height: 250px;
+}
+.section4 .card4-2{
+    height: 250px;
+}
+.section4 .card5-1{
+    height: 250px;
+}
+.section4 .card5-4{
+    height: 250px;
+}
+.section4 .card5-3{
+    height: 250px;
+}
+.section4 .card5-2{
+    height: 250px;
+}
+.section4 .btn5{
+    width: 4rem;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4299E1;
+    color: white;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+/* ------------------------------------- */
+.section5{
+    width: 100%;
+    height: 500px;
+    background-color: #1A202C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section5 .third-card{
+    background-color: #2D3748;
+    width: 1200px;
+    height: 300px;
+    border-radius: 20px; 
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+
+}
+.section5 .third-card .content{
+    width: 420px;
+    height: 300px;
+
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.section5 .third-card .content input{
+width: 270px;
+height: 40px;
+border: none;
+border-radius: 5px;
+background-color:#718096;
+outline: none;
+margin-top: 20px;
+}
+.section5 .third-card .content button{
+width: 130px;
+height: 40px;
+background-color: #667DE9;
+color: white;
+border: none;
+border-radius: 20px;
+margin-top: 20px;
+}
+.section5 .third-card .content button:hover{
+    background-color: gray;
+    transition: .5s;
+}
+/* ---------------------------- */
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #2D3748;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .row{
+   margin-left: 100px
+   
+    
+}
+footer p:hover{
+color: #4299E1 !important;
+transition: .5s;
+cursor: pointer;
+}
+footer span{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+h1,p::selection{
+    color: white;
+    background-color: gray;
+}
+span::selection{
+    color: white;
+    background-color: gray;
+}
+
+
+
+
+
+
+@media only screen and (max-width:736px){
+    body{
+        overflow-x: hidden;
+    }
+header input{
+    display: none !important;
+}
+header .icon-box{
+    display: inline-block;
+}
+header .ss .menu p{
+    display: none;
+}
+section .first-card{
+    width: 90%;
+    left: 20px;
+}
+section .first-card img{
+    display: none;
+}
+section .first-card .content{
+    width: 100%;
+    margin-left: 0;
+}
+section .first-card .content #first-p{
+    font-size: 30px;
+}
+section .first-card .content #second-p{
+    font-size: 18px !important;
+}
+section .first-card .content button{
+    margin-top: 50px;
+}
+section .first-card  .small-div{
+    display: none !important;
+}
+header .ss img{
+    position: absolute;
+    left: 10px;
+}
+header .ss .icon-box{
+    display: inline;
+    position: absolute;
+    right: 50px;
+}
+header .close{
+    position: absolute;
+    font-size: 30px;
+    cursor: pointer;
+    top: 20px;
+    left: 20px;
+    display: inline;
+}
+header .ss .icon-box .bars:hover{
+    color: blue;
+    transition: .5s;
+}
+header .ss .icon-box div:hover{
+    background-color: #2761E8 !important;
+    transition: .5s;
+    cursor: pointer;
+ }
+ header .ss .icon-box div:hover i{
+  color: white !important;
+     transition: .5s;
+  }
+header .close:hover{
+    color: white!important;
+    transition: .5s;
+}
+header .ss .icon-box i{
+    color: black;
+    margin-left: 50px;
+    font-size: 26px;
+    cursor: pointer;
+}
+header  .respons-menu{
+    width: 400px;
+    height: 800px;
+    background-color:#2D3748 ;
+    display: inline-block;
+    z-index: 1;
+    margin-top: -100px;
+    position: absolute;
+    right: -400px;
+}
+header  .respons-menu div{
+    display: inline-block;
+}
+header  .respons-menu p{
+    color: white !important;
+    font-weight: 500;
+    font-size: 16px;
+}
+header  .respons-menu p:hover{
+    color: rgb(55, 55, 172) !important;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s;
+}
+.section3{
+    height: 60vh;
+    background-color:#F8F8F8 ;
+    display: flex;
+    justify-content: center;
+}
+.section3 .second-card{
+    background-color:#2D3748 ;
+    width: 90%;
+    height: 300px;
+    border-radius: 20px; 
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.section3 .second-card .content{
+    width: 400px;
+}
+.section3 .second-card .content #sect3-resp{
+    font-size: 24px !important;
+}
+.section3 .second-card .content #sect3-resp-p{
+    font-size: 18px !important;
+}
+.section3 .second-card  img{
+    display: none;
+}
+.section4{
+    height: auto;
+}
+.section4 .row{
+    display: flex;
+    flex-direction: column !important;
+}
+
+.section4 .card{
+    display: flex;
+    flex-direction: row !important;
+    width: 100% !important;
+}
+.section4 .card .card-body p{
+    font-size: 14px !important;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #2D3748 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+footer .row{
+   display: flex;
+   justify-content: center;
+ 
+   
+   
+    
+}
+footer p:hover{
+color: #4299E1 !important;
+transition: .5s;
+cursor: pointer;
+}
+footer span{
+    color: black;
+}
+footer .col .hidden-p{
+    display: none;
+}
+footer .footer-img{
+    margin-left: 50px !important;
+    margin-right: 0 !important;
+}
+footer .social-main{
+    margin-right: -100px !important;
+}
+footer .social{
+    display: flex !important;
+    justify-content: center !important;
+    margin-left: -250px !important;
+}
+footer .social p{
+ margin-left: 10px;
+}
+
+}

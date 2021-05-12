@@ -30,22 +30,38 @@
   // firstFunction();
 
 
-
-
 var a=1;
+
+var n= prompt("salam");
+
 function myFunc(n){
   document.write(n+"*"+a+"="+n*a + "<br>");
   if(a<10){
      a++; 
-      myFunc(5);
+      myFunc();
   }
  
 }
-myFunc(5);
+myFunc(n);
 
   </script>
+  <!-- <script>
+  // program to generate a multiplication table
 
-
+  // take input from the user
+  const number = parseInt(prompt('Enter an integer: '));
+  
+  //creating a multiplication table
+  for(let i = 1; i <= 10; i++) {
+  
+      // multiply i with number
+      const result = i * number;
+  
+      // display the result
+      console.log(`${number} * ${i} = ${result}`);
+  }
+</script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
 </body>
 </html>
 
