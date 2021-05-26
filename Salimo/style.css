@@ -1,0 +1,1742 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500;600&display=swap');
+body{
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: .6s;
+    padding: 10px 50px;
+    background: #242424;
+    z-index: 100000;
+}
+
+nav ul li a {
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .6s;
+    color: white !important;
+}
+.home-color{
+    color: #FFB400 !important;
+}
+nav ul li a:hover{
+    color: #FFB400 !important;
+}
+nav ul li a i{
+    margin-right: 5px;
+    font-size: 12px;
+}
+.section-bottom{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFB400;
+    clip-path: polygon(100% 90%, 0% 100%, 100% 82%);
+}
+section{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 83%, 0% 100%);
+    background: white;
+}
+
+.slide1 {
+    width: 100%;
+    height: 100vh;
+    min-height: 100px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size:cover;
+    background-size: cover;
+    animation: slide 15s ease infinite;
+}
+.carousel-item .carousel-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+}
+.carousel-item .carousel-caption  p{
+    opacity: 0;
+    animation: text .4s ease forwards;
+    animation-delay: 1s;
+    font-size: 14px;
+}
+.carousel-item .carousel-caption  h1{
+    opacity: 0;
+    animation: text .4s ease forwards;
+    animation-delay: 1s;
+    font-size: 60px;
+    font-weight: 700;
+}
+.carousel-item .carousel-caption button{
+    opacity: 0;
+    animation: button .7s ease forwards;
+    animation-delay: 1s;
+    margin-top: 50px;
+}
+@keyframes button {
+    0%{
+        opacity:0;transform: translateY(100px);
+
+    }
+    100%{
+        opacity:1;transform: translateY(0px);
+    
+    }
+}
+@keyframes text {
+    0%{
+        opacity:0;transform: translateX(200px);
+
+    }
+    100%{
+        opacity:1;transform: translateX(0px);
+    
+    }
+}
+.carousel-item .carousel-caption button{
+    width: 220px;
+    height: 45px;
+    background: #FFB400;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.carousel-item .carousel-caption button i{
+    transform: translateX(-20px);
+    opacity: 0;
+}
+.slide1::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 0.7;
+}
+@keyframes slide {
+    0%{
+        opacity:1;transform: scale(1);
+
+    }
+    100%{
+        opacity:1;transform: scale(1.2);
+    
+    }
+}
+.carousel .carousel-control-prev span{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: #212125;
+    border-radius: 50%;
+    opacity: .8 ;
+    z-index: 100;
+}
+.carousel .carousel-control-next span {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: #212125;
+    border-radius: 50%;
+    opacity: .8 ;
+    z-index: 0;
+}
+
+/* ---------------------------------------- */
+
+.about-1{
+    position: relative;
+    top: 550px;
+    width: 100%;
+    height: 130vh;
+    clip-path: polygon(0 9.3%, 100% 0, 100% 93%, 0% 100%);
+    background-color: #212125;
+}
+.about-1 .content-header{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+}
+.about-1 .content-two{
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+}
+.about-1 .content-two .content-two-text{
+    width: 500px;
+    height: 500px;
+    color: white;
+}
+.about-1 .content-two .content-two-text p{
+    font-size: 14px;
+    font-family: 'KoHo', sans-serif;
+}
+.about-1 .content-two .content-two-text button{
+    margin-top: 30px;
+    width: 180px;
+    height: 45px;
+    background: #FFB400;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+}
+.about-1 .content-two .content-two-text button i{
+    transform: translateX(-20px);
+    opacity: 0;
+}
+.about-1 .content-two .about1-img{
+    width: 500px;
+    height: 500px;
+}
+.about-1 .content-two .border-orange{
+    position: relative;
+    width: 500px;
+    height: 350px;
+    border: 3px solid #FFB400;
+    background-color: #212125;
+    border-radius: 5px;
+}
+.about-1 .content-two .about1-img img{
+    position: absolute;
+    bottom: 190px;
+    left: 710px;
+    border-radius: 5px;
+}
+/* -------------------------------- */
+.about-2{
+    position: relative;
+    top: 450px;
+    width: 100%;
+    height: 130vh;
+    clip-path: polygon(0 9.3%, 100% 0, 100% 93%, 0% 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('imgs/about-bg1.jpg'); 
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+}
+.about-2 .about2-img{
+    width: 430px;
+    height: 430px;
+    clip-path: circle(50% at 50% 50%);
+    background: #FFB400;
+}
+.about-2 .about2-img .about2-circle{
+    position: relative;
+    top: -85px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    clip-path: circle(50% at 50% 50%);
+    background: #FFB400;
+}
+.about-2 .about2-img .about2-circle img{
+    width: 400px;
+    height: 400px;
+}
+.about-2 .about2-text{
+    margin-top: 100px;
+    width: 600px;
+    height: 500px;
+    color: white;
+}
+.about-2 .about2-text .social ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-2 .about2-text .social ul li{
+list-style: none;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+border: 3px solid #FFB400;
+text-align: center;
+}
+.about-2 .about2-text .social ul li i{
+font-size: 26px;
+text-align: center;
+color: #FFB400;
+line-height: 50px;
+
+}
+
+.about-2 .about2-text .social ul li:hover{
+    background: #FFB400;
+    cursor: pointer;
+    transition: .5s;
+}
+.about-2 .section-bottom{
+    position: absolute;
+    top: 195px;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFB400;
+    clip-path: polygon(100% 94%, -10% 100%, 100% 80%);
+
+}
+/* .about-2 .about2-text .social ul li:hover i{
+    transform: rotateY(-360deg);
+    color: white;
+    transition: .5s;
+} */
+.services-1{
+    position: relative;
+    top: 380px;
+    width: 100%;
+    height: 130vh;
+    clip-path: polygon(0 8.5%, 100% 0, 100% 93%, 0% 100%);
+    background-color: #212125;
+}
+.services-1 .content-header{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+
+}
+.services-1 .services-card{
+    width: 100%;
+    height: 500px;
+    background-color: #212125;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.services-1 .services-card .first-part,.second-part{
+    display: flex;
+    justify-content: space-evenly;
+}
+.middle{
+    position:relative;
+    cursor: pointer;
+}
+.services-1 .card{
+    width: 330px;
+    height: 230px;
+    background-color: #151515;
+    background: #212125;
+    border: none;
+}
+.services-1 .card .front i{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.services-1  .front{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .2s linear ;
+    border-radius: 10px;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .2s linear ;
+    border-radius: 10px;
+}
+.services-1 .card .front{
+    color: #FFB400;
+    transform: perspective(600px) rotateY(0deg);
+    background: #151515;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.services-1 .card .back{
+    background: #151515;
+    transform: perspective(600px) rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.services-1  .back .content{
+    width: 90%;
+    color: rgb(160, 150, 150);
+}
+.services-1 .card .back .content p{
+    font-size: 14px;
+}
+.services-1 .card:hover .front{
+    transform: perspective(600px) rotateY(-180deg);
+}
+.services-1 .card:hover .back{
+    transform: perspective(600px) rotateY(0deg);
+}
+/* --------------------------------------- */
+.services-2{
+    position: relative;
+    top: 300px;
+    width: 100%;
+    height: 130vh;
+    clip-path: polygon(0 8.5%, 100% 0, 100% 93%, 0% 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('imgs/services2-bg.jpg'); 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+}
+.services-2{
+    position: relative;
+    top: 320px;
+    width: 100%;
+    height: 130vh;
+    clip-path: polygon(0 6%, 100% 0, 100% 93%, 0% 100%);
+    background-color: #212125;
+}
+.services-2 .content-header{
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+}
+.services-2 .slider{
+    width: 80%;
+    height: 500px;
+     color: white;
+    text-align: center;
+    /* margin-top: -150px; */
+}
+.services-2 .slider .circle{
+    width: 110px;
+    height: 110px;
+     position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; */
+    /* margin-bottom: -50px; */
+    clip-path: circle(50% at 50% 50%);
+    background: #FFB400;
+}
+.services-2 .section-bottom{
+    position: absolute;
+    top: 195px;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFB400;
+    clip-path: polygon(100% 90%, -10% 100%, 100% 80%);
+}
+/* ---------------------------------------- */
+.portfolio-1{
+    position: relative;
+    top: 235px;
+    width: 100%;
+    height: 270vh;
+    clip-path: polygon(0 5%, 100% 0%, 100% 94%, 0% 100%);
+    background-color: #212125;
+}
+.portfolio-1 .content-header{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+}
+.portfolio-1 .content-header .btns{
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: -80px;
+}
+.portfolio-1 .content-header .btns button{
+    width: 130px;
+    height: 40px;
+    border: 2px solid #FFB400;
+    background-color:#212125 ;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.portfolio-1 .content-header .btns button:hover{
+    background-color: #FFB400;
+    transition: .5s;
+}
+.portfolio-1  .portfolio-cards .card{
+   width: 300px;
+   height: 350px !important;
+   background-color:#212125 ;
+   border: none;
+   margin-top: 150px;
+}
+
+.portfolio-1  .portfolio-cards .card-img:hover {
+   opacity: .4;
+   transition: .3s;
+   color: white;
+   cursor: pointer;
+}
+.portfolio-1  .portfolio-cards .card-img:hover i{
+    opacity: 1 !important;
+    transition: .3s;
+    color: white !important;
+}
+.portfolio-1  .portfolio-cards .card .card-img{
+background:url(imgs/project-1.jpg);
+background-size: cover;
+width: 350px;
+height: 300px;
+}
+.portfolio-1  .portfolio-cards .card .card-img2{
+    background:url(imgs/project-2.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    }
+    .portfolio-1  .portfolio-cards .card-img2:hover i{
+        opacity: 1 !important;
+        transition: .3s;
+        color: white !important;
+    }
+    .portfolio-1  .portfolio-cards .card-img2:hover {
+
+        opacity: .4;
+        transition: .3s;
+        color: white;
+        cursor: pointer;
+     }
+     .portfolio-1  .portfolio-cards .card .card-img3{
+        background:url(imgs/project-3.jpg);
+        background-size: cover;
+        width: 350px;
+        height: 300px;
+        }
+        .portfolio-1  .portfolio-cards .card-img3:hover i{
+            opacity: 1 !important;
+            transition: .3s;
+            color: white !important;
+        }
+        .portfolio-1  .portfolio-cards .card-img3:hover {
+    
+            opacity: .4;
+            transition: .3s;
+            color: white;
+            cursor: pointer;
+         }
+         .portfolio-1  .portfolio-cards .card .card-img4{
+            background:url(imgs/project-4.jpg);
+            background-size: cover;
+            width: 350px;
+            height: 300px;
+            }
+            .portfolio-1  .portfolio-cards .card-img4:hover i{
+                opacity: 1 !important;
+                transition: .3s;
+                color: white !important;
+            }
+            .portfolio-1  .portfolio-cards .card-img4:hover {
+        
+                opacity: .4;
+                transition: .3s;
+                color: white;
+                cursor: pointer;
+             }
+             .portfolio-1  .portfolio-cards .card .card-img5{
+                background:url(imgs/project-5.jpg);
+                background-size: cover;
+                width: 350px;
+                height: 300px;
+                }
+                .portfolio-1  .portfolio-cards .card-img5:hover i{
+                    opacity: 1 !important;
+                    transition: .3s;
+                    color: white !important;
+                }
+                .portfolio-1  .portfolio-cards .card-img5:hover {
+            
+                    opacity: .4;
+                    transition: .3s;
+                    color: white;
+                    cursor: pointer;
+                 }
+                 .portfolio-1  .portfolio-cards .card .card-img6{
+                    background:url(imgs/project-6.jpg);
+                    background-size: cover;
+                    width: 350px;
+                    height: 300px;
+                    }
+                    .portfolio-1  .portfolio-cards .card-img6:hover i{
+                        opacity: 1 !important;
+                        transition: .3s;
+                        color: white !important;
+                    }
+                    .portfolio-1  .portfolio-cards .card-img6:hover {
+                
+                        opacity: .4;
+                        transition: .3s;
+                        color: white;
+                        cursor: pointer;
+                     }
+                     .portfolio-1  .portfolio-cards .card .card-img7{
+                        background:url(imgs/project-7.jpg);
+                        background-size: cover;
+                        width: 350px;
+                        height: 300px;
+                        }
+                        .portfolio-1  .portfolio-cards .card-img7:hover i{
+                            opacity: 1 !important;
+                            transition: .3s;
+                            color: white !important;
+                        }
+                        .portfolio-1  .portfolio-cards .card-img7:hover {
+                    
+                            opacity: .4;
+                            transition: .3s;
+                            color: white;
+                            cursor: pointer;
+                         }
+                         .portfolio-1  .portfolio-cards .card .card-img8{
+                            background:url(imgs/project-8.jpg);
+                            background-size: cover;
+                            width: 350px;
+                            height: 300px;
+                            }
+                            .portfolio-1  .portfolio-cards .card-img8:hover i{
+                                opacity: 1 !important;
+                                transition: .3s;
+                                color: white !important;
+                            }
+                            .portfolio-1  .portfolio-cards .card-img8:hover {
+                        
+                                opacity: .4;
+                                transition: .3s;
+                                color: white;
+                                cursor: pointer;
+                             }
+                             .portfolio-1  .portfolio-cards .card .card-img9{
+                                background:url(imgs/project-9.jpg);
+                                background-size: cover;
+                                width: 350px;
+                                height: 300px;
+                                }
+                                .portfolio-1  .portfolio-cards .card-img9:hover i{
+                                    opacity: 1 !important;
+                                    transition: .3s;
+                                    color: white !important;
+                                }
+                                .portfolio-1  .portfolio-cards .card-img9:hover {
+                            
+                                    opacity: .4;
+                                    transition: .3s;
+                                    color: white;
+                                    cursor: pointer;
+  }
+
+/* ---------------------------------- */
+.portfolio-2{
+    position: relative;
+    top: 130px;
+    width: 100%;
+    height: 130vh;
+    clip-path: polygon(0 12%, 100% 0%, 100% 88%, 0% 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('imgs/portfolio2-bg.jpg'); 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+    align-items: center;
+    text-align: center;
+}
+.portfolio-2 .content-header{
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+}
+.portfolio-2 .counter-up{
+    position: relative;
+    top: -200px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.portfolio-2 .counter-up .col i{
+    font-size: 100px;
+}
+.portfolio-2 .section-bottom{
+    position: absolute;
+    top: 190px;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFB400;
+    clip-path: polygon(100% 88%, -7% 100%, 100% 77%);
+}
+
+/* ----------------------------------------- */
+.team-1{
+    position: relative;
+    top: 35px;
+    width: 100%;
+    height: 140vh;
+    clip-path: polygon(0 10%, 100% 0%, 100% 94%, 0% 100%);
+    background-color: #212125;
+}
+.team-1 .content-header{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+}
+.team-1 .team-cards{
+    margin-top: 150px;
+}
+.team-1 .team-cards  .card{
+    border: none;
+}
+.team-1 .team-cards .card-body{
+    height: 100px;
+    background-color: #151515;
+    color: white;
+    text-align: center;
+}
+.team-1 .team-cards .card .card-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 76%;  
+    cursor: pointer;
+}
+.team-1 .team-cards .card:hover .card-body{
+    background-color: #FFB400;
+    transition: 1s;
+}
+.team-1 .team-cards .card:hover .card-img{
+    background: rgba(0, 0, 0, .6);
+    transition: .5s;
+}
+.team-1 .team-cards .card:hover .social{
+    opacity: 1;
+    transition: 1s;
+}
+.team-1 .card .social ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.team-1 .card .social {
+    opacity: 0;
+    width: 200px;
+    margin-top: 150px;
+    margin-left: 10px;
+}
+.team-1 .card .social ul li{
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    text-align: center;
+}
+.team-1 .card .social ul li i{
+    font-size: 20px;
+    text-align: center;
+    color: white !important;
+    line-height: 35px;
+}
+
+.team-1 .card .social ul li:hover{
+    background: white;
+    cursor: pointer;
+    transition: .5s;
+}
+.team-1 .card .social ul li:hover i{
+    color: #FFB400 !important;
+}
+/* ----------------------------------- */
+.team-2{
+    position: relative;
+    top: -40px;
+    width: 100%;
+    height: 120vh;
+    clip-path: polygon(0 10%, 100% 0%, 100% 88%, 0% 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('imgs/portfolio2-bg.jpg'); 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+    align-items: center;
+    text-align: center;
+}
+.team-2 .content-header{
+    width: 700px;
+    height: 100px;
+    margin: auto;
+    margin-top: 200px;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+}
+.team-2 .content-header input{
+    border-radius: 50px;
+    width: 600px;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+.team-2 button{
+    margin-top: 30px;
+    width: 200px;
+    height: 45px;
+    background: #FFB400;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+}
+.team-2  button i{
+    transform: translateX(-20px);
+    opacity: 0;
+}
+.team-2 .section-bottom{
+    position: absolute;
+    top: 130px;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFB400;
+    clip-path: polygon(100% 90%, -7% 100%, 100% 77%);
+}
+
+/* --------------------------------------- */
+.blog-1{
+    position: relative;
+    top: -140px;
+    width: 100%;
+    height: 140vh;
+    clip-path: polygon(0 11%, 100% 0%, 100% 90%, 0% 100%);
+    background-color: #212125;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.blog-1 .content-header{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    top: -30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+}
+.blog-1 .blog-cards{
+    margin-top: -40px;
+    width: 100%;
+    height: 500px;
+    justify-content: space-evenly;
+
+}
+.blog-1 .blog-cards .card{
+    height: 350px;
+    background: #212125;
+    border: none;
+    color: white;
+}
+.blog-1 .blog-cards .card .img{
+overflow: hidden;
+cursor: pointer;
+}
+.blog-1 .blog-cards .card img{
+    height: 230px;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.blog-1 .blog-cards .card:hover img{
+    transform: scale(1.7);
+}
+.blog-1 .blog-cards .card .card-body{
+    height: 100px;
+}
+.blog-1 .blog-cards .card:hover img{
+    transform: scale(1.1);
+}
+.blog-1 .blog-cards .card .card-title:hover{
+    color: #FFB400;
+    transition: .5s;
+    cursor: pointer;
+}
+.blog-1 button{
+    margin: auto;
+    margin-top: -150px;
+    width: 200px;
+    height: 45px;
+    background: #FFB400;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+  
+}
+.blog-1  button i{
+    transform: translateX(-20px);
+    opacity: 0;
+}
+/* ------------------------------------------- */
+.blog-2{
+    position: relative;
+    top: -230px;
+    width: 100%;
+    height: 120vh;
+    clip-path: polygon(0 12%, 100% 0%, 100% 88%, 0% 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('imgs/video-bg.jpg'); 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+    align-items: center;
+    text-align: center;
+}
+.blog-2 .content-header{
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    margin-top: 200px;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+}
+.blog-2  li{
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 200px;
+    border-radius: 50%;
+    border: 5px solid #FFB400;
+    text-align: center;
+    }
+    .blog-2 li i{
+    font-size: 26px;
+    text-align: center;
+    color: #FFB400;
+    line-height: 70px;
+    
+    }
+    .blog-2 li:hover{
+        background: orange;
+        transition: .5s;
+        cursor: pointer;
+        
+    }
+    .blog-2 li:hover i{
+        color: white;
+        transition: .5s;
+    }
+    .blog-2 .section-bottom{
+        position: absolute;
+        top: 130px;
+        width: 100%;
+        height: 100vh;
+        background-color: #FFB400;
+        clip-path: polygon(100% 90%, -7% 100%, 100% 77%);
+    }
+/* ------------------------------------ */
+.contact{
+    position: relative;
+    top: -330px;
+    width: 100%;
+    height: 800px;
+    clip-path: polygon(0 12%, 100% 0%, 100% 100%, 0% 100%);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('imgs/portfolio2-bg.jpg');  */
+    background: #212125;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+    align-items: center;
+    text-align: center;
+}
+.contact .content-header{
+    width: 800px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+}
+.contact .content-header input{
+    border-radius: 50px;
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+.contact .content-header  textarea{
+    width: 700px;
+    height: 200px;
+    border-radius: 25px;
+    outline: none;
+    margin-top: 50px;
+    border: none;
+
+}
+.contact button{
+    margin: auto;
+    margin-top: -150px;
+    width: 320px;
+    height: 50px;
+    background: #FFB400;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+  
+}
+.contact  button i{
+    transform: translateX(-20px);
+    opacity: 0;
+}
+.contact .section-bottom{
+    position: absolute;
+    top: 750px;
+    width: 100%;
+    height: 100px;
+    background-color: #FFB400;
+    clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: 1;
+}
+/* ---------------------------- */
+.slideshow{
+    /* clip-path: polygon(0 53%, 100% 34%, 100% 77%, 0% 100%); */
+    background: #212125;
+    height: 300px;
+    position: relative;
+    top:-350px ;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+
+}
+
+
+
+/* .slideshow::before,.slideshow::after{
+    content:  "";
+    width: 200px;
+    position: absolute;
+    height: 100px;
+    background: linear-gradient(to right,white 0%,rgba(255,255,255,0)100%);
+    z-index: 2;
+} */
+/* .slideshow::before{
+top: 0;
+left: 0;
+} */
+/* .slideshow::after{
+    top: 0;
+    right: 0;
+    transform: rotateZ(180deg);
+} */
+.slideshow .slider-track{
+    display: flex;
+    width: calc(350px * 16);
+    animation: scroll 30s infinite linear;
+}
+
+.slideshow  img{
+    margin-left: 150px;
+    margin-top: 100px;
+    color: wheat;
+    }
+@keyframes scroll{
+    0%{
+   transform: translateX(0%);
+    }
+    100%{
+    transform: translateX(calc(-250px * 8));
+    }
+}
+
+/* ---------------------------------------- */
+.footer{
+    height: 500px;
+    background-color: #242424;
+    position: relative;
+    top: -400px;
+}
+.footer .content{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.footer .social ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer .social ul li{
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #FFB400;
+    text-align: center;
+}
+.footer .social ul li i{
+    font-size: 20px;
+    text-align: center;
+    color: #FFB400;
+    line-height: 30px;
+}
+
+.footer .social ul li:hover{
+    background: #FFB400;
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+
+
+
+
+
+/* -------------------Media----------------------------- */
+@media only screen and (max-width:736px){
+  section .carousel-item .carousel-caption{
+      width: 400px;
+      height: 300px;
+      margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .slide1 {
+      margin-top: 70px;
+    width: 100%;
+    height: 600px;
+    background: no-repeat scroll center scroll;
+    background-size: cover;
+    animation: slide 15s ease infinite;
+    
+}
+.slide1 img{
+    height: 400px;
+}
+.section-bottom{
+    display: none;
+}
+.carousel-inner{
+    height: 450px;
+}
+.about-1{
+    height: auto;
+  top: 450px;
+}
+.about-1 .about-twopart{
+    height: auto;
+    display: flex;
+    flex-direction: column !important;
+}
+.about-1 .about-twopart .content-two-text{
+    margin-left: 50px;
+}
+.about-1 .content-two .border-orange{
+    position: relative;
+    top: -100px;
+    left: 70px;
+    width: 400px;
+  
+}
+.about-1 .content-two .about1-img img{
+    position: absolute;
+    top: 680px !important;
+    left: 50px !important;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    width: 400px;
+}
+.about-2{
+    display: flex;
+    flex-direction: column !important;
+    height: 1300px;
+    top: 250px;
+}
+
+.about-2 .about2-text{
+    width: 100%;
+    margin-left: 50px;
+    margin-top: -100px !important;
+  
+}
+.about-2 .social{
+    margin-left: -40px;
+}
+.about-2 .about2-text{
+    margin-top: 100px;
+    width: 450px;
+    height: 500px;
+    color: white;
+    margin-left: 0px;
+}
+.services-1{
+    top: 150px;
+    height: 2000px !important;
+    position: relative;
+    clip-path: polygon(0 4.5%, 100% 0, 100% 93%, 0% 100%);
+    background-color: #212125;
+}
+.services-1 .services-card{
+    width: 100%;
+    height: auto !important;
+    background-color: #212125;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.services-1 .services-card .first-part,.second-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto !important;
+}
+.middle{
+    position:relative;
+    cursor: pointer;
+}
+.services-1 .card{
+    width: 90%;
+    height: 230px;
+    background-color: #151515;
+    background: #212125;
+    border: none;
+    margin-top: 20px;
+}
+.services-1 .card .front i{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.services-1  .front{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .2s linear ;
+    border-radius: 10px;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .2s linear ;
+    border-radius: 10px;
+}
+.services-1 .card .front{
+    color: #FFB400;
+    transform: perspective(600px) rotateY(0deg);
+    background: #151515;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.services-1 .card .back{
+    background: #151515;
+    transform: perspective(600px) rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.services-1  .back .content{
+    width: 90%;
+    color: rgb(160, 150, 150);
+}
+.services-1 .card .back .content p{
+    font-size: 14px;
+}
+.services-1 .card:hover .front{
+    transform: perspective(600px) rotateY(-180deg);
+}
+.services-1 .card:hover .back{
+    transform: perspective(600px) rotateY(0deg);
+}
+/* ---------------------------- */
+.services-2{
+    position: relative;
+    top: 00px;
+    width: 100%;
+    height: auto;
+    clip-path: polygon(0 8.5%, 100% 0, 100% 93%, 0% 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('imgs/services2-bg.jpg'); 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+}
+.services-2 .carousel{
+    width: 100% !important;
+}
+
+.services-2 .content-header{
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+    margin-left: 50px !important;
+}
+.services-2 .carousel-inner{
+    margin-left: 100px !important;
+}
+.services-2 .slider{
+    width: 100% ;
+    height: 400px;
+     color: white;
+    text-align: center;
+    margin-left: -150px !important;
+    /* margin-top: -150px; */
+}
+
+/* -------------------------- */
+.portfolio-1{
+    position: relative;
+    top: -100px;
+    width: 100%;
+    height: 630vh !important;
+    clip-path: polygon(0 2%, 100% 0%, 100% 98%, 0% 100%);
+}
+.portfolio-1 .content-header{
+    top: 200px;
+}
+.portfolio-1 .content-header .btns{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 0;
+}
+.portfolio-1 .content-header .btns button{
+    margin-top: 20px;
+}
+.portfolio-1 .portfolio-cards{
+height: auto !important;
+margin-top: 150px;
+}
+.portfolio-1 .port1-card{
+    margin-top: 150px !important;
+    height: 1000px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.portfolio-1 .port1-card2{
+    margin-top: 50px !important;
+    height: 1000px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.portfolio-1 .port1-card3{
+    margin-top: 50px !important;
+    height: 1000px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.portfolio-1  .portfolio-cards .card{
+   height: 350px !important;
+   background-color:#212125 ;
+   border: none;
+   margin-top: 0px;
+}
+.portfolio-1  .portfolio-cards .card .card-img{
+background:url(imgs/project-1.jpg);
+background-size: cover;
+width: 350px;
+height: 300px;
+}
+/* ------------------------------------ */
+.portfolio-2{
+    position: relative;
+    top: -200px;
+    width: 100%;
+    height: 250vh;
+    clip-path: polygon(0 5%, 100% 0%, 100% 97%, 0% 100%);
+
+}
+.portfolio-2 .content-header{
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+}
+.portfolio-2 .counter-up{
+    position: relative;
+    top: -550px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.portfolio-2 .counter-up .col{
+    margin-top: 50px;
+}
+.portfolio-2 .counter-up .col i{
+    font-size: 100px;
+}
+.portfolio-2 .section-bottom{
+    position: absolute;
+    top: 190px;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFB400;
+    clip-path: polygon(100% 88%, -7% 100%, 100% 77%);
+}
+.team-1{
+    position: relative;
+    top: -300px;
+    width: 100%;
+    height: 350vh;
+    clip-path: polygon(0 4%, 100% 0%, 100% 97%, 0% 100%);
+    background-color: #212125;
+}
+.team-1 .team-cards{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.team-1 .team-cards .card{
+    margin-top: 20px;
+}
+.team-2{
+    position: relative;
+    top: -370px;
+    width: 100%;
+    height: 120vh;
+    clip-path: polygon(0 8%, 100% 0%, 100% 92%, 0% 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('imgs/portfolio2-bg.jpg'); 
+
+}
+.team-2 .content-header{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    margin-top: 150px;
+
+}
+.team-2 .content-header input{
+    border-radius: 50px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+.team-2 .input li{
+    left: 0 !important;
+}
+
+.blog-1{
+    position: relative;
+    top: -500px;
+    width: 100%;
+    height: 250vh;
+    clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+  
+}
+.blog-1 .content-header{
+    margin-top: 100px;
+}
+.blog-1 .blog-cards{
+    margin-top: -300px;
+    width: 100%;
+    height: 500px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+
+}
+.blog-1 .blog-cards .card{
+    height: 350px;
+}
+.blog-2{
+    position: relative;
+    top: -600px;
+    width: 100%;
+    height: 120vh;
+    clip-path: polygon(0 8%, 100% 0%, 100% 92%, 0% 100%);
+
+}
+.contact{
+    position: relative;
+    top: -730px;
+    width: 100%;
+    height: 800px;
+    clip-path: polygon(0 7%, 100% 0%, 100% 100%, 0% 100%);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('imgs/portfolio2-bg.jpg');  */
+    background: #212125;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-attachment: fixed;
+    align-items: center;
+    text-align: center;
+}
+.contact .content-header{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+}
+.contact .content-header input{
+    border-radius: 50px;
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+.contact .content-header .contact-input  li{
+    left: 35px !important;
+}
+.contact .content-header .input  li{
+    left: 55px !important;
+}
+.contact .content-header  textarea{
+    width: 100%;
+    height: 200px;
+    border-radius: 25px;
+    outline: none;
+    margin-top: 50px;
+
+}
+.contact button{
+    margin: auto;
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 300px;
+    height: 50px;
+}
+
+.slideshow{
+        /* clip-path: polygon(0 53%, 100% 34%, 100% 77%, 0% 100%); */
+        background: #212125;
+        height: 300px;
+        position: relative;
+        top:-750px ;
+        overflow: hidden;
+        margin: auto;
+        width: 100%;
+}
+.footer{
+    height: 500px;
+    background-color: #242424;
+    position: relative;
+    top: -800px;
+}
+
+.footer .social ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.footer .content{
+    width: 100%;
+}
+.footer .social ul li{
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #FFB400;
+    text-align: center;
+}
+.footer .social ul li i{
+    font-size: 20px;
+    text-align: center;
+    color: #FFB400;
+    line-height: 30px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  .ml3 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  .ml7 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.7em;
+  }
+  .ml7 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  .ml7 .letter {
+    transform-origin: 0 100%;
+    display: inline-block;
+    line-height: 1em;
+  } */
